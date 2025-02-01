@@ -67,7 +67,7 @@ def generate_qr_code(url, fill_color="black", logo=None, output_format="PNG", tr
     return img_io
 
 # Streamlit UI
-st.title("QR Code Generator with Center Space for Product Image")
+st.title("QR Code Generator")
 
 url = st.text_input("Enter the URL or text:")
 
